@@ -1,0 +1,20 @@
+{
+  "name": "tugas_nodejs_1",
+  "version": "1.0.0",
+  "description": "tugas",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "Guntur Adi Wijaya",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "express": "latest",
+    "cors": "latest",
+    "dotenv": "latest"
+  }
+}
